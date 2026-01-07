@@ -46,6 +46,9 @@
   margin-bottom: 30px;
 
 }
+.text-center{
+  text-align: center;
+}
 
 
   /* Main Style */
@@ -53,8 +56,8 @@ header{
     background-color: #FFF8F3;
     background: url(../images/developer.png) , url(../images/header_bg.png) , #FFF8F3 ;
     background-repeat: no-repeat;
-    background-position: top left , bottom right;
-    padding: 50px;
+    background-position: 23px 38px , bottom right;
+    padding-top: 50px;
     
 }
 nav{
@@ -102,7 +105,9 @@ nav .manu a {
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 30px;
-  
+}
+.banner-button-gap{
+  margin-right: 30px;
 }
 #banner .banner-image img{
   max-width: 585px;
@@ -199,4 +204,48 @@ nav .manu a {
   font-size: 16px;
   line-height: 28px;
   color: #757575;
+}
+.text-center .btn{
+  margin-top: 50px;
+}
+
+footer{
+  margin-top: 113px;
+  background-color: #FFF8F3;
+  padding: 130px 0;
+}
+footer .footer-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 116px;
+
+}
+.footer-container h2{
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 20px;
+
+}
+.footer-container .social{
+  max-width: 562px;
+}
+.footer-container p{
+  color: #474747;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.footer-container .icon a{
+  margin-right: 24px;
+}
+.footer-container form input[type="text"] , .footer-container form textarea{
+  width: 461px;
+  padding: 18px 30px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+  color: #757575;
+  
 }
